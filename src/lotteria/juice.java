@@ -1,6 +1,7 @@
 package lotteria;
 
 public class juice extends Drink {
+	
 	String fu;
 	
 	public juice() {
@@ -11,4 +12,16 @@ public class juice extends Drink {
 		super(name, ice, price);
 		this.fu = fu;
 	}
+
+	@Override
+	public String toString() {
+		return "juice [fu=" + fu + ", name=" + name + ", ice=" + ice + ", price=" + price + "]";
+	}
+
+
+	
+
+	
+	
+	
 }

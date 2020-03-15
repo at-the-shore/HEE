@@ -1,7 +1,7 @@
 package lotteria;
 
-public class Drink {
-	String name;
+public class Drink {	// 음료들의 가장 상위 클래스 Drink 
+	String name;	// drink들에 기본적으로 들어가는 요소들 : 이름, 얼음, 가격 
 	String ice;
 	int price;
 	

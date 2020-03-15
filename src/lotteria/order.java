@@ -3,11 +3,12 @@ package lotteria;
 import java.util.ArrayList;
 
 public class order {
-	ArrayList<burger> burger1;
+	ArrayList<burger> burger1; 
+	// <burger>형의  ArrayList, 이름은 burger1 ?? 
 	ArrayList<Drink> drink1;
 	
-	public order() { //접근제한자 class명() {}
-		//기본
+	public order() {  // 기본생성자 
+		
 	}
 	
 	public order(ArrayList<burger> burger1, ArrayList<Drink> drink1) {
@@ -15,12 +16,12 @@ public class order {
 		this.drink1 = drink1;
 	}
 	
-	public String bill() { //함수(메소드) : 접근제한자 반환형태 이름() {}
-		// 입력 받은 메뉴들의 가격 총합
+	public String bill() { 	// 입력 받은 메뉴들의 가격 총 가격을 계산할 메소드 
 		
-		int totalburger = 0;
-		for (int i = 0; i < burger1.size(); i++) {
-			totalburger = totalburger + burger1.get(i).price;
+		int totalburger = 0;  // 햄버거의 총 가곅을 넣을 변수 totalburger 0으로 초기화 
+		for (int i = 0; i < burger1.size(); i++) { //burger1리스트의 사이즈만큼 반복문을 실행 
+			totalburger = totalburger + burger1.get(i).price; 
+			// burger1의 ? ? ?
 		}
 			
 		int totaldrink = 0;

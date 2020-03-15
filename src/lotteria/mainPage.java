@@ -7,35 +7,17 @@ public class mainPage {
 	public static void main(String[] args) {
 		cheezeBurger cb = new cheezeBurger("모짜렐라", "참깨빵", "소고기", "양상추토마토", "마요네즈", 3000);
 		cheezeBurger cb2 = new cheezeBurger("모짜렐라", "식빵", "소고기", "양상추", "케챱", 3500);
-//	
-////	cb.test();
-////	cb2.test();
-////	
+	
 		coke ck = new coke("탄산", "콜라", "각얼음", 1000);
 		juice orange = new juice("오렌지", "오렌지주스", "큰얼음", 2500);
-//	
-//	String result = ck.toString();
-//	System.out.println(result);
-//	
+
 		ArrayList<burger> burgerList = new ArrayList();
 		burgerList.add(cb);
 		burgerList.add(cb2);
-//
+
 		ArrayList<Drink> drinkList = new ArrayList();
 		drinkList.add(ck);
 		drinkList.add(orange);
-
-		/*
-		 * for (int i = 0; i < burgerList.size() ; i++) { //컬렉션의 size만큼 루프를 돌려서 하나씩 검사
-		 * burgerList.get(i).test(); //출력 }
-		 */
-
-//	for (cheezeBurger cheezeb : burgerList) { //list, 배열 전용 
-//		cheezeb.test();
-//	}
-
-//	order od = new order(burgerList, drinkList);
-//	System.out.println(od.bill());
 
 		System.out.println("1.포장, 2.매장에서 식사");
 
@@ -53,7 +35,6 @@ public class mainPage {
 			} catch (Exception e) {
 				e.printStackTrace(); // 예외가 발생한 이유를 보여줌
 				System.out.println("다시 입력해주세요!!!!!!!");
-
 			}
 		}
 
@@ -82,7 +63,6 @@ public class mainPage {
 			if (mainMenuRepeat == 2) {
 				break;
 			}
-
 		}
 		ArrayList<Drink> drinkMenuList = new ArrayList();
 		while (true) {

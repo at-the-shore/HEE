@@ -1,9 +1,8 @@
 package lotteria;
 
 public class cheezeBurger extends burger{
-
 	
-	String cheeze;
+	String cheeze; // 치즈버거에만 있는 요소 cheeze  
 	
 	public cheezeBurger() {
 		
