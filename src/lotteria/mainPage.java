@@ -46,7 +46,7 @@ public class mainPage {
 		ArrayList<burger> mainMenuList = new ArrayList();
 
 		while (true) {
-			try {
+			try { // <- 제가 새로 넣은 예외처리문인데 동작을 안해요. (ㅜㅜ)
 					System.out.println("메뉴를 골라주세요: ");
 					for (int i = 0; i < burgerList.size(); i++) {
 						System.out.println(i + "." + burgerList.get(i).bread);
@@ -61,7 +61,7 @@ public class mainPage {
 				}
 				
 				if (mainmenu != 0 && mainmenu != 1 && mainmenu !=2) {
-					System.out.println("다시입력");
+					System.out.println("다시입력"); // <- 이부분이 동작을 하지 않아요! 3을 입력해도 다음으로 넘어가네요.. 
 				} else { 
 					break; 
 				}
