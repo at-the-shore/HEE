@@ -1,14 +1,14 @@
 package lotteria;
 
-public class coke extends Drink{
+public class Coke extends Drink{
 	
 	String tansan;
 	
-	public coke() {
+	public Coke() {
 		
 	}
 	
-	public coke(String tansan, String name, String ice, int price) {
+	public Coke(String tansan, String name, String ice, int price) {
 		super(name, ice, price);
 		this.tansan = tansan;
 	}

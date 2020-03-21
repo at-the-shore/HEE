@@ -1,14 +1,14 @@
 package lotteria;
 
-public class cheezeBurger extends burger{
+public class CheezeBurger extends Burger{
 	
 	String cheeze; // 치즈버거에만 있는 요소 cheeze  
 	
-	public cheezeBurger() {
+	public CheezeBurger() {
 		
 	}
 	
-	public cheezeBurger(String cheeze,String bread,String meat,String va,String src,int price) {
+	public CheezeBurger(String cheeze,String bread,String meat,String va,String src,int price) {
 		super(bread, meat, va, src, price);
 		this.cheeze = cheeze;
 	}

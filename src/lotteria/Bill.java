@@ -2,16 +2,16 @@ package lotteria;
 
 import java.util.ArrayList;
 
-public class order {
-	ArrayList<burger> burger1; 
+public class Bill {
+	ArrayList<Burger> burger1; 
 	// <burger>형의  ArrayList, 이름은 burger1 ?? 
 	ArrayList<Drink> drink1;
 	
-	public order() {  // 기본생성자 
+	public Bill() {  // 기본생성자 
 		
 	}
 	
-	public order(ArrayList<burger> burger1, ArrayList<Drink> drink1) {
+	public Bill(ArrayList<Burger> burger1, ArrayList<Drink> drink1) {
 		this.burger1 = burger1;
 		this.drink1 = drink1;
 	}
